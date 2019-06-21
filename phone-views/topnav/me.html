@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="小空个人博客,记录生活的瞬间,分享学习的心得,感悟生活,留住感动,静静寻觅生活的美好">
+    <meta name="keywords" content="小空，博客，个人博客">
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/phone/footer.css">
+    <link rel="stylesheet" href="/css/phone/common.css">
+    <title>小空个人博客</title>
+    <style>
+        #me{
+            background-color: #fff;
+            padding: 0.2rem ;
+
+        }
+        .me{
+            width:100%;
+            background-color: rgba(255,255,255,.4);
+            font-size: 0.3rem;
+        }
+        .main{
+            width: 1rem;
+            margin: 0 auto;
+        }
+        .main .portrait{
+            width: 1rem;
+            height: 1rem;
+            margin-bottom: 0.2rem;
+            border-radius: 50%;
+        }
+        .main p{
+            font-size:0.32rem;
+            text-align: center;
+        }
+        .abstract{
+            color: #999;
+        }
+        .abstract span{
+            color:#000;
+            font-weight: bold;
+        }
+        .abstract p{
+            text-indent: 1rem;
+        }
+        .abstract img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<script src="/jquery/jquery-3.3.1.min.js"></script>
+
+<header id="header">
+    <div class="headr-con">
+        <i class="layui-icon layui-icon-spread-left menu-icon" ></i>
+        <h1>关于我</h1>
+    </div>
+    <div id="menu">
+        <div class="blog-user">
+            <ul class="clearfix"></ul>
+        </div>
+        <div class="topnav">
+            <ul class="clearfix">
+                <li><i class="layui-icon layui-icon-home"></i><a href="/phone">网站首页 </a></li>
+                <li><i class="layui-icon layui-icon-read"></i><a href="/phone/techno">学无止境</a></li>
+                <li><i class="layui-icon layui-icon-note"></i><a href="/phone/life">慢生活 </a></li>
+                <li><i class="layui-icon layui-icon-reply-fill"></i><a href="/phone/message">留言板 </a></li>
+                <li><i class="layui-icon layui-icon-log"></i><a href="/phone/history">文章归档 </a></li>
+                <li><i class="layui-icon layui-icon-friends"></i><a href="/phone/me">关于我 </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="shade"></div>
+</header>
+
+<div id="me">
+    <div class="me">
+        <div class="main">
+            <img src="/img/headr/11.jpg" class="portrait">
+            <p>小空</p>
+        </div>
+        <div class="abstract">
+            <span>个人资料：</span>
+            <p>男，九零后，摩蝎座</p>
+        </div>
+        <div class="abstract">
+            <span>爱好：</span>
+            <p>发呆，听歌，比较喜欢一些有逻辑上的东西</p>
+        </div>
+        <div class="abstract">
+            <span>个人简介：</span>
+            <p>虽然不是爱折腾的人，但也不想简简单单的过完这辈子，人总要为了自己想要的东西去拼搏、去努力，虽然说人的欲望是无法满足的，但正是因为这些欲望才会让人去做的更好，虽然付出不一定会有回报，但不付出一定不会有。</p>
+            <p>不是每件事都注定会成功，但是每件事都值得一试，即使失败的也没关系， 经验不都是从无数次的错误和失败中慢慢积累的吗？我不后悔我所做的每一个决定，无论结果是怎样，因为我相信我做的每个决定的出发点都是好的， 就算有坏的时候，但世上没有后悔药，所以更值得自己去反思，去做的更好，希望能够不忘初心，勇往直前。</p>
+            <!--<p>由于以前从事与前端无关的行业，所以学习前端是从18年的7月开始的，学习前端的原因可能是和我刚开始想要的工作比较相符，尽管在这过程中遇到各种困难，但都会想办法一步一步的去解决，可能是因为长时间的学习，突然也把时间看的比以前更重要，感谢在这期间常帮助过我的人，不管结果如何，只希望不忘初心，勇往直前。</p>-->
+            <img src="/img/me/me1.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!-- 尾部 -->
+<footer>
+    <div class="f-content">
+        <dl>
+            <dt>权益</dt>
+            <dd>版权所有：CopyRight © 2019-2020 xiaokong.com</dd>
+            <dd>ICP备案：粤ICP备19022284号-1</dd>
+            <dd>邮箱：xiaokong69@163.com</dd>
+        </dl>
+        <dl id="total">
+            <dt>统计</dt>
+            <dd>文章总数：<span class="article-total"></span>篇</dd>
+            <dd>评论总数：<span class="comment-total"></span>条</dd>
+            <dd>注册用户：<span class="user-total"></span>个</dd>
+            <dd>访量总数：<span class="volume-total"></span>次</dd>
+            <dd>文章浏览总数：<span class="browse-total"></span>次</dd>
+        </dl>
+    </div>
+</footer>
+<script src="/phone-js/common.js"></script>
+<script src="/phone-js/session.js"></script>
+<script>
+
+</script>
+</body>
+</html>

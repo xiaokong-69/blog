@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/font/iconfont.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/phone/footer.css">
+    <link rel="stylesheet" href="/css/phone/common.css">
+    <link rel="stylesheet" href="/css/phone/article.css">
+    <title>小空个人博客</title>
+    <style>
+        #article{
+            margin-top: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+<script src="/jquery/jquery-3.3.1.min.js"></script>
+<header id="header">
+    <div class="headr-con">
+        <i class="layui-icon layui-icon-spread-left menu-icon" ></i>
+        <h1>小空博客</h1>
+    </div>
+    <div id="menu">
+        <div class="blog-user">
+            <ul class="clearfix"></ul>
+        </div>
+        <div class="topnav">
+            <ul class="clearfix">
+                <li><i class="layui-icon layui-icon-home"></i><a href="/phone">网站首页 </a></li>
+                <li><i class="layui-icon layui-icon-read"></i><a href="/phone/techno">学无止境</a></li>
+                <li><i class="layui-icon layui-icon-note"></i><a href="/phone/life">慢生活 </a></li>
+                <li><i class="layui-icon layui-icon-reply-fill"></i><a href="/phone/message">留言板 </a></li>
+                <li><i class="layui-icon layui-icon-log"></i><a href="/phone/history">文章归档 </a></li>
+                <li><i class="layui-icon layui-icon-friends"></i><a href="/phone/me">关于我 </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="shade"></div>
+</header>
+<!-- 内容与侧边栏 -->
+<div id="subject" class="clearfix">
+    <!-- 轮播 文章 -->
+    <div class="content fl">
+        <!-- 文章 -->
+        <div id="article">
+            <div class="position">当前位置><span class="place">首页</span>&gt;<span class="place newest"></span></div>
+            <div class="article-list">
+                <!--文章内容显示区域-->
+            </div>
+            <div id="laypage"></div>
+        </div>
+    </div>
+
+</div>
+<div id="load">
+    <div class="load">
+        <i class="layui-icon layui-icon-loading layui-anim layui-anim-rotate layui-anim-loop"></i> <span>正在加载...</span>
+    </div>
+</div>
+<!-- 尾部 -->
+<footer>
+    <div class="f-content">
+        <dl>
+            <dt>权益</dt>
+            <dd>版权所有：CopyRight © 2019-2020 xiaokong.com</dd>
+            <dd>ICP备案：粤ICP备19022284号-1</dd>
+            <dd>邮箱：xiaokong69@163.com</dd>
+        </dl>
+        <dl id="total">
+            <dt>统计</dt>
+            <dd>文章总数：<span class="article-total"></span>篇</dd>
+            <dd>评论总数：<span class="comment-total"></span>条</dd>
+            <dd>注册用户：<span class="user-total"></span>个</dd>
+            <dd>访量总数：<span class="volume-total"></span>次</dd>
+            <dd>文章浏览总数：<span class="browse-total"></span>次</dd>
+        </dl>
+    </div>
+</footer>
+<script src="/layui/layui.all.js"></script>
+<script src="/phone-js/common.js"></script>
+<script src="/phone-js/session.js"></script>
+<script src="/phone-js/article.js"></script>
+
+
+</body>
+</html>
