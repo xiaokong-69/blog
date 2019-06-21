@@ -1,0 +1,123 @@
+#sidebar{
+    width: 25%;
+    margin-left: 3%;
+}
+#blogger{
+    overflow:hidden;
+    padding-bottom: 0.4rem;
+    margin-bottom:0.4rem;
+    /*background-image: url("/img/bgimg/100.jpg") ;*/
+    /*background-size: 5.06rem 5.92rem;*/
+    background-color: rgba(237,203,170,.8);
+}
+#blogger .b-portrait{
+    width: 1.2rem;
+    margin: 0.8rem auto 0.4rem;
+}
+#blogger img{
+    width: 100%;
+    border-radius: 50%;
+}
+#blogger .information{
+    line-height: 0.5rem;
+}
+#blogger .information div{
+    text-align: center;
+}
+#blogger .information div span{
+    font-size: 18px;
+}
+#blogger .information p{
+    margin-left:0.2rem;
+    margin-top:0.16rem;
+    font-size: 0.26rem;
+}
+#blogger .information  span{
+    padding:0.1rem;
+    background-color: rgba(255,255,255,.3);
+}
+#blogger .information .autograph{
+    background-color: rgba(255,255,255,.3);
+}
+ .common{
+     margin-bottom: 0.2rem;
+    /* background-color: #fff; */
+}
+.common:hover .title::after{
+    width: 100%;
+}
+.common .title{
+    position: relative;
+    padding:0.1rem;
+    padding-left:0.2rem;
+    border-bottom: 1px solid #aaa;
+    background-color: rgba(255,255,255,.8);
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+ .common .title::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0%;
+    height:0.02rem;
+    left:-0.02rem;
+    bottom: -0.02rem;
+    background-color: #000;
+    transition: 2s ease-in-out;
+}
+ .common .list {
+    padding:0.2rem;
+    background-color: rgba(255,255,255,.3);
+}
+ .common .h-list li{
+    width: 100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    margin-bottom:0.2rem;
+    display: -webkit-box;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+ .common .h-list li span{
+     margin-right:0.1rem;
+     padding: 0.1rem;
+     background-color: #bbb;
+     vertical-align: middle;
+     color:#fff;
+ }
+.common .h-list li span a{
+    vertical-align: bottom;
+}
+.common .h-list li:nth-child(-n+3) span{
+    background-color: #f00;
+    font-size:0.42rem;
+}
+.common .h-list li:nth-child(2) span{
+    background-color: #F30;
+    font-size:0.38rem;
+}
+.common .h-list li:nth-child(3) span{
+    background-color: #F60;
+    font-size:0.36rem;
+}
+.common .h-list li a:hover{
+    color:#f63;
+}
+#total .t-list li {
+    margin-bottom:0.2rem;
+}
+#link ul li {
+    display: inline-block;
+    margin: 0   0.4rem 0.2rem;
+    font-size:0.32rem;
+}
+#link ul li a{
+    color:#1a85dd;
+}
+#link ul li a:hover{
+    color:#f63;
+}
+

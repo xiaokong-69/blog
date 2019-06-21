@@ -1,0 +1,83 @@
+
+body{
+    background-color: #ccc;
+}
+.return{
+    margin-left:0.2rem;
+}
+.return a{
+    color: #1a85dd;
+}
+.return a:hover{
+    color:#f63;
+}
+#user{
+    position: relative;
+    width: 7rem;
+    margin: 2rem  auto;
+    background-color:#fff;
+}
+.title{
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    color:#0077aa;
+    text-align: center;
+    font-size:0.4rem;
+    font-weight: bold;
+}
+#user .con li{
+    width: 253px;
+    margin: 20px auto;
+    border-bottom: 1px solid #222;
+}
+#user .con li .name{
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color:#666;
+    font-size: 16px;
+    vertical-align: top;
+}
+#user .con li input{
+    border: 0;
+    outline:none;
+    vertical-align: top;
+}
+.btn{
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    margin:auto;
+    background-color: #0077aa;
+    margin-top:40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.no{
+    width: 280px;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: right;
+}
+.no a{
+    font-size: 12px;
+}
+.no a:hover{
+    color:red;
+}
+.tips{
+    display: none;
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:130px;
+    margin-top:-30px;
+    margin-left:-65px;
+    padding: 20px;
+    background-color:rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}

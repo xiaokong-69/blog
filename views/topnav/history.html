@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/headr-nav.css">
+    <link rel="stylesheet" href="/css/tips.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>小空个人博客</title>
+    <style>
+        #history{
+            width: 52%;
+            margin: 0 auto 200px;
+            padding : 0.4rem;
+            background-color: #fff;
+        }
+        #history .history-list {
+            margin-top:0.5rem;
+        }
+        #history .title{
+            padding-bottom:0.2rem;
+            border-bottom: 0.02rem solid #ccc;
+            font-size: 0.34rem;
+        }
+        .list-time{
+            padding-right:0.2rem;
+        }
+        .layui-timeline-title{
+            overflow:hidden;
+            height: 0.4rem;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+        }
+        .layui-timeline-item .list-title a:hover{
+            color:red;
+            text-decoration: none;
+        }
+        #history #laypage{
+            width: 100%;
+            margin: 0 auto;
+        }
+        #laypage .layui-laypage{
+            margin-left:8rem;
+        }
+        #footer{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<script src="/jquery/jquery-3.3.1.min.js"></script>
+
+<header id="header">
+    <div class="headr-con clearfix">
+        <div class="fl"><h1><a href="http://www.yxiaokong.com">小空个人博客</a></h1></div>
+        <div class="blog-user fr">
+            <ul></ul>
+        </div>
+    </div>
+
+</header>
+<!-- 头部导航栏 -->
+<nav id="topnav">
+    <div class="topnav">
+        <ul class="clearfix">
+        </ul>
+    </div>
+</nav>
+<div id="history">
+    <div class="title">往期文章</div>
+     <ul class="history-list">
+         <!--文章-->
+     </ul>
+    <div id="laypage"></div>
+</div>
+<!-- 小功能 -->
+<div id="tips">
+    <!-- 返回顶部 -->
+    <div id="gotop">
+        <span>▲</span>
+        <span>TOP</span>
+    </div>
+
+</div>
+<div id="load">
+    <div class="load">
+        <i class="layui-icon layui-icon-loading layui-anim layui-anim-rotate layui-anim-loop"></i> <span>正在加载...</span>
+    </div>
+</div>
+<!-- 尾部 -->
+<footer id="footer">
+    <div class="content">
+        <p>CopyRight © 2019-2020 www.xiaokong.com</p>
+        <p>备案号：粤ICP备19022284号-1</p>
+    </div>
+</footer>
+<script src="/layui/layui.all.js"></script>
+<script src="/js/common/common.js"></script>
+<script src="/js/common/session.js"></script>
+<script src="/js/topnav/history.js"></script>
+
+
+</body>
+</html>

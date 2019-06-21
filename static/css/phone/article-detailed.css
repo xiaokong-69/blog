@@ -1,0 +1,212 @@
+#subject{
+    overflow: hidden;
+    width: 20rem;
+    margin: 0 auto;
+}
+#subject .content{
+    width: 70%;
+}
+#detailed{
+    overflow: hidden;
+    padding:20px;
+    background-color: #fff;
+}
+#detailed ul{
+    margin: 10px 0;
+}
+#detailed{
+    padding: 0;
+    margin-top:0.84rem;
+}
+.article-content img{
+    width: 100%;
+}
+
+.detailed-title h2{
+    margin-top: 0.2rem;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.article-content{
+    padding: 0.1rem;
+}
+
+#detailed .detailed-content ul{
+    margin-bottom: 20px;
+}
+#detailed  .detailed-content{
+    font-size: 0.28rem;
+}
+.detailed-content > ul li{
+    float: left;
+    margin-left:15px;
+    color:#999;
+    font-size: 0.28px;
+}
+.detailed-content b{
+    font-weight: bold;
+    font-size: 0.36rem;
+}
+.article-content i{
+    display: block;
+    padding:0.04rem 0.08rem;
+    line-height:0.5rem;
+    background-color:#282c34;
+    color:#abb2bf;
+}
+.detailed-content > ul li span{
+    color:#000;
+}
+.source{
+    margin-top:30px;
+    color:#999;
+}
+.source span{
+    color:#000;
+}
+.source span a{
+    color:#f63;
+}
+.current{
+    padding-bottom:0.1rem;
+    border-bottom:0.02rem solid #f63;
+}
+.current a:hover{
+    color:#f63;
+}
+h2{
+    font-weight: bold;
+}
+.nextpage{
+    margin-top:0.4rem;
+    font-size:0.32rem;
+}
+.nextpage p {
+    margin-top:0.1rem;
+}
+.nextpage a{
+    color:blue;
+    font-size:0.28rem;
+}
+.nextpage a:hover{
+    color:#f63;
+}
+/*评论 start*/
+.comment{
+    padding-top:50px;
+}
+.comment-ing{
+    display: inline-block;
+    vertical-align: top;
+}
+.comment .comment-ing img{
+    width: 30px;
+    height:30px;
+    border-radius:50%;
+    border: 1px solid #666;
+}
+.comment-box{
+    padding-top:10px;
+}
+.comment-text{
+    border-bottom:1px solid #f63;
+}
+.comment-content{
+    display: inline-block;
+    width: 89%;
+}
+.prompot{
+    display: inline-block;
+    margin-top:20px;
+    padding: 8px;
+    background-color: #FF5722;
+    border-radius:20px;
+    font-size:14px;
+    color:#fff;
+}
+
+.layui-input-block{
+    margin: 0;
+}
+.layui-btn{
+    float: right;
+    height:30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.layui-layedit-tool{
+    height:24px;
+}
+.layui-layedit-tool .layui-icon{
+    height:20px;
+    line-height: 20px;
+}
+.comment-list{
+    margin-bottom:1rem;
+}
+.comment-list .comment-ul{
+    padding:10px;
+    border-top:1px solid #FF5722;
+}
+.comment-ul .bor{
+    padding-bottom:0.2rem;
+    border-bottom: 1px solid #EDA347;
+}
+.warp{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.message-item .list-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.list-username{
+    color:#915833;
+}
+.comment-item .list-sign{
+    background-color: #FF5722;
+    color: #fff;
+}
+.comment-item .floor{
+    font-size: 14px;
+}
+.comment-item .list-time{
+    margin-top:10px;
+    color: #999;
+    font-size:0.24rem;
+}
+.comment-item .list-content{
+    padding-left:20px ;
+    padding-bottom: 0.2rem;
+}
+
+.main  .m-reply{
+    color:#f63;
+    cursor: pointer;
+}
+.reply-box{
+    margin-left:0.8rem;
+}
+.reply-box .textinput{
+    display: block;
+    width:40%;
+    height:1rem;
+    border: 0.02rem solid #F8DBA3;
+}
+.reply-box .reply-btn{
+    margin-top:0.1rem;
+    padding:0.05rem 0.1rem;
+    background-color:#EDA347;
+    color:#fff;
+    font-size:0.24rem;
+    cursor:pointer;
+}
+.reply-list{
+    margin-left:1.3rem;
+}
+.reply-list ul .reply-item{
+    margin-top:0.2rem;
+}

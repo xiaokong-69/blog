@@ -1,0 +1,131 @@
+#subject{
+    position: relative;
+    width: 20rem;
+    margin: 0 auto;
+}
+#subject .content{
+    width: 71%;
+}
+#subject .con-banner{
+    width: 98%;
+    background-color: rgba(255,255,255,.5);
+    padding:1%;
+}
+
+#banner{
+    overflow: hidden;
+    float:left;
+    position: relative;
+    width: 72%;
+    height:300px;
+}
+.con-banner .selected{
+    float:right;
+    width: 25%;
+    height:140px;
+}
+.con-banner .selected .s-container{
+    position: relative;
+    margin: 20px 0;
+}
+
+/* .con-banner .selected div::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    vertical-align: middle;
+} */
+.con-banner .selected .s-container img{
+    width: 100%;
+    height:120px;
+    vertical-align: bottom;/*去掉图片的间隙*/
+}
+.con-banner .selected .sentence{
+    opacity: 0;
+    position: absolute;
+    padding-top:20px;
+    background: -webkit-linear-gradient(rgba(200,200,200,.1),rgba(0,0,0,1));
+    color:#E0E0E0;
+    font-size:14px;
+    bottom: 0;
+    transition:1s;
+}
+.s-container:hover .sentence{
+    opacity: 1;
+}
+#banner .banner-img li{
+    opacity:0;
+    position: absolute;
+    transition: 1s;
+}
+#banner .banner-img .on{
+    z-index: 2;
+    opacity:1;
+}
+#banner .banner-img li img{
+    width: 100%;
+    height:300px;
+}
+#banner .banner-img li a{
+    display: block;
+}
+#banner .btn{
+    z-index: 3;
+    position:absolute;
+    left:50%;
+    bottom: 20px;
+    width: 90px;
+    height: 20px;
+    margin-left:-45px;
+}
+#banner .btn li{
+    float:left;
+    width: 12px;
+    height: 12px;
+    margin-left:5px;
+    border-radius:50%;
+    background-color: #fff;
+}
+#banner .btn .active{
+    background-color: #f63;
+}
+
+#banner .buttom{
+    z-index: 3;
+    position:absolute;
+    top:150px;
+    width: 30px;
+    height: 50px;
+    margin-top:-25px;
+    background-color:rgba(255,255,255,.3);
+    line-height:50px;
+    color:#000;
+    font-size:40px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+#banner .left{
+    left:-30px;
+    text-align:left;
+}
+#banner .right{
+    right:-30px;
+    text-align:right;
+}
+#banner .switch{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top:50%;
+    left:50%;
+    margin-left:-20px;
+    margin-top:-22px;
+}
+#banner .iconfont{
+    font-size:40px;
+    cursor:pointer;
+}

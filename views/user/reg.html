@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/user.css">
+    <title>注册</title>
+    <style>
+
+        #reg .r-con{
+            padding: 0 50px;
+        }
+        #reg .con li{
+            margin-top:0;
+        }
+        #reg .con li .name{
+            display: inline-block;
+            width: 60px;
+            height:25px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            color:#666;
+            font-size: 14px;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            vertical-align: top;
+        }
+        #reg .con li .name::after{
+            content: '';
+            width: 100%;
+            display: inline-block;
+            overflow: hidden;
+            height:0;
+        }
+        #reg .con li{
+            margin-bottom: 20px;
+        }
+        #reg .con input{
+            width: 182px;
+            border: 0;
+            outline:none;
+        }
+        #reg .con li{
+            position: relative;
+        }
+
+       #reg .con .error{
+           display: none;
+           position: absolute;
+           top: 5px;
+           right:-60px;
+           color:red;
+           font-size: 12px;
+       }
+    </style>
+</head>
+<body>
+<script src="/jquery/jquery-3.3.1.min.js"></script>
+
+    <div id="user">
+        <div class="return"><a href="/">返回首页</a></div>
+        <div class="title">用户注册</div>
+        <div id="reg">
+            <ul class="con">
+                <li class="nickname">
+                    <span class="name">昵称</span>
+                    <input type="text" placeholder="请输入名称">
+                </li>
+                <li class="username">
+                    <span class="name">帐号</span>
+                    <input type="text" placeholder="请输入6~13位数字">
+                    <span class="error">格式错误</span>
+                </li>
+                <li class="password">
+                    <span class="name">密码</span>
+                    <input type="password" placeholder="输入6~16位密码(数字或字母)">
+                    <span class="error">密码格式错误</span>
+                </li>
+                <li class="confirm">
+                    <span class="name">确认密码</span>
+                    <input type="password" placeholder="请再次输入密码">
+                    <span class="error">密码不一致</span>
+                </li>
+                </li>
+            </ul>
+            <div class="r-reg btn">注册</div>
+        </div>
+        <div class="no"><a href="/user/login">已有帐号？点击登录</a></div>
+        <div class="tips"></div>
+    </div>
+    <script src="/js/common/user.js"></script>
+    <script src="/js/user/reg.js"></script>
+</body>
+</html>

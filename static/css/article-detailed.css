@@ -1,0 +1,206 @@
+#subject{
+    overflow: hidden;
+    width: 20rem;
+    margin: 0 auto;
+}
+#subject .content{
+    width: 70%;
+}
+#detailed{
+    overflow: hidden;
+    padding:20px;
+    background-color: #fff;
+}
+#detailed ul{
+    margin: 10px 0;
+}
+.detailed-title h2{
+    margin-top: 0.2rem;
+    font-size: 0.5rem;
+    text-align: center;
+}
+.article-content{
+    padding: 0.1rem;
+}
+
+#detailed .detailed-content ul{
+    margin-bottom: 20px;
+}
+#detailed  .detailed-content{
+    font-size: 0.28rem;
+}
+.detailed-content > ul li{
+    float: left;
+    margin-left:15px;
+    color:#999;
+    font-size: 0.28px;
+}
+.detailed-content b{
+    font-weight: bold;
+    font-size: 0.36rem;
+}
+.detailed-content > ul li span{
+    color:#000;
+}
+.article-content i{
+    display: block;
+    padding:0.04rem 0.08rem;
+    line-height:0.5rem;
+    background-color:#282c34;
+    color:#abb2bf;
+}
+.source{
+    margin-top:30px;
+    color:#999;
+}
+.source span{
+    color:#000;
+}
+.source span a{
+    color:#f63;
+}
+.current{
+    padding-bottom:0.1rem;
+    border-bottom:0.02rem solid #f63;
+}
+.current a:hover{
+    color:#f63;
+}
+h2{
+    font-weight: bold;
+}
+.nextpage{
+    margin-top:0.4rem;
+    font-size:0.32rem;
+}
+.nextpage p {
+    margin-top:0.1rem;
+}
+.nextpage a{
+    color:blue;
+    font-size:0.28rem;
+}
+.nextpage a:hover{
+    color:#f63;
+}
+/*评论 start*/
+.comment{
+    padding-top:50px;
+}
+.comment-ing{
+    display: inline-block;
+    vertical-align: top;
+}
+.comment .comment-ing img{
+    width: 30px;
+    height:30px;
+    border-radius:50%;
+    border: 1px solid #666;
+}
+.comment-box{
+    padding-top:10px;
+}
+.comment-text{
+    border-bottom:1px solid #f63;
+}
+.comment-content{
+    display: inline-block;
+    width: 89%;
+}
+.prompot{
+    display: inline-block;
+    margin-top:20px;
+    padding: 8px;
+    background-color: #FF5722;
+    border-radius:20px;
+    font-size:14px;
+    color:#fff;
+}
+
+.layui-input-block{
+    margin: 0;
+}
+.layui-btn{
+    float: right;
+    height:30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.layui-layedit-tool{
+    height:24px;
+}
+.layui-layedit-tool .layui-icon{
+    height:20px;
+    line-height: 20px;
+}
+.comment-list{
+    margin-bottom:1rem;
+}
+.comment-list .comment-ul{
+    padding:10px;
+    border-top:1px solid #FF5722;
+}
+.comment-ul .bor{
+    border-bottom: 1px solid #aaa
+}
+.comment-list .single-reply{
+    position: relative;
+    padding-top: 10px;
+}
+.reply-list .single-reply{
+    padding-top: 0px;
+}
+.comment-list .single-reply .list-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment-list .single-reply .list-sign{
+    padding-left:0.05rem;
+    padding-right:0.05rem;
+    color:#fff;
+    background-color:  #FF5722;
+}
+.comment-list .single-reply .floor{
+    font-size: 14px;
+}
+.comment-list .single-reply .list-time{
+    float:right;
+    margin-top:10px;
+    color: #999;
+    font-size:0.14rem;
+}
+.comment-list .single-reply .list-content{
+    text-indent:2em;
+    padding-left:20px ;
+}
+.comment-list .single-reply .icon-reply{
+    display: none;
+    position: absolute;
+    right:0;
+    bottom:5px;
+    color: #3c91e0;
+    font-size:20px;
+    cursor: pointer;
+}
+.comment-list .comment-box-wrpa .reply-btn{
+    float: right;
+    border:  0;
+    margin-bottom:0.1rem;
+    padding : 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.comment-list .reply-list{
+    padding-left:80px;
+}
+.reoly-content{
+    border:1px solid #ccc;
+}
+.comment-list .nothing{
+    text-align:center;
+    color:#aaa;
+}
+/*评论end*/

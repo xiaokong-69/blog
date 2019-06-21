@@ -1,0 +1,85 @@
+body {
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100% 100%;
+    background-color: #f4ddbe;
+}
+/* 头部 start */
+#header{
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:50px;
+    background-color: rgba(255,255,255,.5);
+}
+.headr-con{
+    width: 20rem;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.headr-con h1 a{
+    color:#000;
+    font-size: 18px;
+    font-family:"KaiTi",Georgia,Serif;
+}
+.blog-user li{
+    margin-left:10px;
+}
+.blog-user li a{
+    color:#333;
+}
+.blog-user a:hover{
+    color:red;
+}
+.blog-user img{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    vertical-align: middle;
+}
+.blog-user ul span{
+    color:#edb24e;
+}
+/* 头部 end */
+
+/*导航栏 start */
+#topnav{
+    width: 20rem;
+    /*height:30px;*/
+    margin:70px auto 25px;
+
+}
+.topnav{
+    width: 70%;
+}
+.topnav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .topnav li{
+    /*float:left;*/
+    /*margin-right:  30px ;*/
+}
+.topnav li a{
+    /*display: block;*/
+    color:#f63;
+    font-size:0.36rem;
+}
+.topnav li a:hover{
+    background-color: rgba(51,153,255,.5);
+    color:#fff;
+    border-radius:10px;
+}
+/*导航栏 end */
+
+
+
+
+

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/headr-nav.css">
+    <link rel="stylesheet" href="/css/tips.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>小空个人博客</title>
+    <style>
+        #me{
+            width: 20rem;
+            margin: 0 auto;
+        }
+        .me{
+            width:66%;
+            padding:2%;
+            background-color: rgba(255,255,255,.4);
+            font-size: 0.3rem;
+        }
+        .abstract span{
+            font-weight: bold;
+        }
+        .abstract p{
+            text-indent: 1rem;
+        }
+    </style>
+</head>
+<body>
+<script src="/jquery/jquery-3.3.1.min.js"></script>
+
+<header id="header">
+    <div class="headr-con clearfix">
+        <div class="fl"><h1><a href="http://www.yxiaokong.com">小空个人博客</a></h1></div>
+        <div class="blog-user fr">
+            <ul></ul>
+        </div>
+    </div>
+
+</header>
+<!-- 头部导航栏 -->
+<nav id="topnav">
+    <div class="topnav">
+        <ul class="clearfix">
+
+        </ul>
+    </div>
+</nav>
+<div id="me"  class="clearfix">
+    <div class="me fl">
+        <div class="abstract">
+            <span>个人资料：</span>
+            <p>男，九零后，摩蝎座</p>
+        </div>
+        <div class="abstract">
+            <span>爱好：</span>
+            <p>发呆，听歌，比较喜欢一些有逻辑上的东西</p>
+        </div>
+        <div class="abstract">
+            <span>个人简介：</span>
+            <p>虽然不是爱折腾的人，但也不想简简单单的过完这辈子，人总要为了自己想要的东西去拼搏、去努力，虽然说人的欲望是无法满足的，但正是因为这些欲
+                望才会让人去做的更好，我不敢保证当前所做的对将来是否有用， 虽然付出不一定会有回报，但不付出一定不会有，但总要一试，即使失败的也没关系，
+                经验不都是从无数次的错误和失败中慢慢积累的吗？我不后悔我所做的每一个决定，无论结果是怎样，因为我相信我做的每个决定的出发点都是好的，
+                就算有坏的时候，但世上没有后悔药，所以更值得自己去反思，去做的更好，希望能够不忘初心，勇往直前。
+            </p>
+            <!--<p>由于以前从事与前端无关的行业，所以学习前端是从18年的7月开始的，学习前端的原因可能是和我刚开始想要的工作比较相符，尽管在这过程中遇到各种困难，但都会想办法一步一步的去解决，可能是因为长时间的学习，突然也把时间看的比以前更重要，感谢在这期间常帮助过我的人，不管结果如何，只希望不忘初心，勇往直前。</p>-->
+            <img src="/img/me/me1.jpg" alt="">
+        </div>
+    </div>
+    <aside id="sidebar" class="fl">
+        <!-- 个人信息 -->
+        <div id="blogger">
+            <div class="b-portrait"><img src="/img/headr/11.jpg" alt=""></div>
+            <div class="information">
+                <div><span >小空</span></div>
+                <p><span>网站：www.yxiaokong.com</span></p>
+                <p><span>邮箱：xiaokong69@163.com</span></p>
+                <p class="autograph">不是每件事都注定会成功，但是每件事都值得一试。</p>
+            </div>
+        </div>
+        <!-- 点击排行 -->
+        <div id="hot" class="common">
+            <div class="title">点击排行</div>
+            <ul class="h-list list">
+
+            </ul>
+        </div>
+        <!-- 统计 -->
+        <div id="total" class="common">
+            <div class="title">统计</div>
+            <ul class="t-list list">
+                <li>文章总数：<span class="article-total"></span>篇</li>
+                <li>评论总数：<span class="comment-total"></span>条</li>
+                <li>注册用户：<span class="user-total"></span>个</li>
+                <li>访量总数：<span class="volume-total"></span>次</li>
+                <li>文章浏览总数：<span class="browse-total"></span>次</li>
+            </ul>
+        </div>
+        <!-- 友连 -->
+        <div id="link" class="common">
+            <div class="title">友情链接</div>
+            <ul class="f-list list"></ul>
+        </div>
+    </aside>
+</div>
+<!-- 小功能 -->
+<div id="tips">
+    <!-- 返回顶部 -->
+    <div id="gotop">
+        <span>▲</span>
+        <span>TOP</span>
+    </div>
+</div>
+<!-- 尾部 -->
+<footer>
+    <div class="content">
+        <p>CopyRight © 2019-2020 www.xiaokong.com</p>
+        <p>备案号：粤ICP备19022284号-1</p>
+    </div>
+</footer>
+<script src="/js/common/common.js"></script>
+<script src="/js/common/session.js"></script>
+
+</body>
+</html>

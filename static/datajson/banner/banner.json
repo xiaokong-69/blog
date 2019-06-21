@@ -1,0 +1,30 @@
+{
+    "name" : "轮播区域",
+    "listData" : [
+        {
+            "title" : "",
+            "src" : "/img/bgimg/1.jpg",
+            "href" : ""
+        },
+        {
+            "title" : "",
+            "src" : "/img/bgimg/2.png",
+            "href" : ""
+        },
+        {
+            "title" : "",
+            "src" : "/img/bgimg/3.png",
+            "href" : ""
+        },
+        {
+            "title" : "",
+            "src" : "/img/bgimg/4.jpg",
+            "href" : ""
+        },
+        {
+            "title" : "",
+            "src" : "/img/bgimg/5.jpg",
+            "href" : ""
+        }
+    ]
+}

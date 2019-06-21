@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="关键字">
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/font/iconfont.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/headr-nav.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/tips.css">
+    <link rel="stylesheet" href="/css/article-detailed.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>小空个人博客</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script src="/jquery/jquery-3.3.1.min.js"></script>
+
+<header id="header">
+    <div class="headr-con clearfix">
+        <div class="fl"><h1><a href="http://www.yxiaokong.com">小空个人博客</a></h1></div>
+        <div class="blog-user fr">
+            <ul></ul>
+        </div>
+    </div>
+</header>
+<!-- 头部导航栏 -->
+<nav id="topnav">
+    <div class="topnav">
+        <ul class="clearfix">
+        </ul>
+    </div>
+</nav>
+<!-- 内容与侧边栏 -->
+<div id="subject">
+   <div class="content fl">
+       <!--文章详情-->
+       <div id="detailed">
+           <div class="current">
+               <span>当前位置：</span>
+               <a href="http://www.yxiaokong.com/">首页</a>
+               <span>&gt;</span>
+               <a href="/">学无止境</a>
+           </div>
+           <!--文章的内容显示 start-->
+           <article class="detailed-content">
+
+           </article>
+           <div class="nextpage">
+                <p>上一篇：<a href="" class="upper-article"></a></p>
+                <p>下一篇：<a href="" class="lower-article"></a></p>
+           </div>
+           <!--文章的内容显示 end-->
+
+           <div class="comment">
+               <div class="comment-text"><i class="iconfont icon-icon-pencil"></i>发表评论</div>
+               <span class="prompot">请登录再评论...</span>
+               <div class="comment-box">
+                   <div class="comment-ing">
+                       <img src="/img/public/anonymous-User-img.png" alt="">
+                   </div>
+                   <div class="layui-input-block comment-content">
+                       <textarea placeholder="请输入内容..." class="layui-textarea"  style="resize:none"></textarea>
+                   </div>
+                   <div class="layui-input-block">
+                       <button class="layui-btn layui-bg-red">发表评论</button>
+                   </div>
+               </div>
+               <!--评论显示的列表 sart-->
+               <div class="comment-list">
+                   <div>评论列表: (<span class="comment-number"></span>)</div>
+                    <ul class="comment-ul">
+
+                    </ul>
+               </div>
+               <!--评论显示的列表 end-->
+           </div>
+       </div>
+   </div>
+    <!-- 侧边栏  start-->
+    <aside id="sidebar" class="fl">
+        <!-- 个人信息 -->
+        <div id="blogger">
+            <div class="b-portrait"><img src="/img/headr/11.jpg" alt=""></div>
+            <div class="information">
+                <div><span >小空</span></div>
+                <p><span>网站：www.yxiaokong.com</span></p>
+                <p><span>邮箱：xiaokong69@163.com</span></p>
+                <p class="autograph">不是每件事都注定会成功，但是每件事都值得一试。</p>
+            </div>
+        </div>
+        <!-- 点击排行 -->
+        <div id="hot" class="common">
+            <div class="title">点击排行</div>
+            <ul class="h-list list">
+
+            </ul>
+        </div>
+        <!-- 统计 -->
+        <div id="total" class="common">
+            <div class="title">统计</div>
+            <ul class="t-list list">
+                <li>文章总数：<span class="article-total"></span>篇</li>
+                <li>评论总数：<span class="comment-total"></span>条</li>
+                <li>注册用户：<span class="user-total"></span>个</li>
+                <li>访量总数：<span class="volume-total"></span>次</li>
+                <li>文章浏览总数：<span class="browse-total"></span>次</li>
+            </ul>
+        </div>
+        <!-- 友连 -->
+        <div id="link" class="common">
+            <div class="title">友情链接</div>
+            <ul class="f-list list">
+            </ul>
+        </div>
+    </aside>
+    <!-- 侧边栏  end-->
+    <!-- 小功能 -->
+    <div id="tips">
+        <!-- 返回顶部 -->
+        <div id="gotop">
+            <span>▲</span>
+            <span>TOP</span>
+        </div>
+        <!-- 遮阴 -->
+    </div>
+</div>
+<div id="load">
+    <div class="load">
+        <i class="layui-icon layui-icon-loading layui-anim layui-anim-rotate layui-anim-loop"></i> <span>正在加载...</span>
+    </div>
+</div>
+<!-- 尾部 start-->
+<footer>
+    <div class="content">
+        <p>CopyRight © 2019-2020 www.xiaokong.com</p>
+        <p>备案号：粤ICP备19022284号-1</p>
+    </div>
+</footer>
+<!-- 尾部 end-->
+<script src="/layui/layui.all.js"></script>
+<script src="/js/common/common.js"></script>
+<script src="/js/article-detailed/article-detailed.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+footer{
+    background-color: #333;
+    color:#BFBFBF;
+    font-size: 0.28rem;
+    font-family: "SimSun" ; 
+}
+footer  .f-content{
+    width: 100%;
+    padding:0.2rem 0.4rem;
+}
+footer .f-content dt{
+    font-size: 0.36rem;
+}
+footer .f-content dl{
+    padding :  0.2rem 0;
+}

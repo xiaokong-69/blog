@@ -1,0 +1,97 @@
+#message{
+    width: 20rem;
+    margin: 0 auto;
+}
+#message .content{
+    width:66%;
+    padding:2%;
+    background-color: #fff;
+}
+#message .content .bor-tx{
+    color:#f63;
+    padding-bottom:0.2rem;
+    border-bottom: 1px solid #f63;
+}
+.layui-input-block{
+    margin-left:0;
+}
+.titlecnt{
+    border-bottom: 1px solid #f63;
+}
+h4{
+    padding:0.2rem;
+}
+.btn{
+    margin-top:0.1rem;
+    padding:0.1rem 0.2rem;
+    cursor: pointer;
+}
+.layui-layedit-tool{
+    padding:0;
+}
+.message-list{
+    margin-bottom:1rem;
+}
+.message-list .comment-ul{
+    padding:10px;
+    border-top:1px solid #FF5722;
+}
+.message-ul .bor{
+    padding-bottom:0.2rem;
+    border-bottom: 1px solid #EDA347;
+}
+.warp{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.message-item .list-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.list-username{
+    color:#915833;
+}
+.message-item .list-sign{
+    color: #FF5722;
+}
+.message-item .floor{
+    font-size: 14px;
+}
+.message-item .list-time{
+    margin-top:10px;
+    color: #999;
+    font-size:0.24rem;
+}
+.message-item .list-content{
+    padding-left:20px ;
+    padding-bottom: 0.2rem;
+}
+
+.main  .m-reply{
+    color:#f63;
+    cursor: pointer;
+}
+.reply-box{
+    margin-left:0.8rem;
+}
+.reply-box .textinput{
+    display: block;
+    width:40%;
+    height:1rem;
+    border: 0.02rem solid #F8DBA3;
+}
+.reply-box .reply-btn{
+    margin-top:0.1rem;
+    padding:0.05rem 0.1rem;
+    background-color:#EDA347;
+    color:#fff;
+    font-size:0.24rem;
+    cursor:pointer;
+}
+.reply-list{
+    margin-left:1.3rem;
+}
+.reply-list ul .reply-item{
+    margin-top:0.2rem;
+}
