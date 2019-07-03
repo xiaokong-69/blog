@@ -10,6 +10,8 @@ const classify = require("../logic/classify/classify");//分类:学无止境---�
 const topnav = require("../logic/topnav/index");//留言板 --关于我 --时间轴
 const interflow = require("../logic/interflow/interflow");
 const side = require("../logic/side/index");
+const qunaer = require("../logic/qunaer/index");//首页
+
 let count = 0;
 let phoneCount = 0;
 
@@ -133,5 +135,11 @@ router.post('/friend',admin.friend)
 router.post('/volume',async (ctx,next) =>{
     ctx.body = count;
 })
+//去哪儿
+router.get('/qunaer',qunaer.getIndex)
+router.post('/qunaer',qunaer.qunaer)
+router.post('/city',qunaer.city)
+router.post('/details/:id',qunaer.details)
+router.post('/week',qunaer.week)
 
 module.exports = router;
