@@ -83,25 +83,31 @@
 }
  .common .h-list li span{
      margin-right:0.1rem;
-     padding: 0.1rem;
+     padding: 0 0.1rem ;
      background-color: #bbb;
      vertical-align: middle;
      color:#fff;
  }
-.common .h-list li span a{
+/* .common .h-list li span a{
     vertical-align: bottom;
-}
-.common .h-list li:nth-child(-n+3) span{
+} */
+.common .h-list li:nth-child(1) span{
     background-color: #f00;
-    font-size:0.42rem;
+}
+.common .h-list li:nth-child(1) a{
+    color:#f00
 }
 .common .h-list li:nth-child(2) span{
-    background-color: #F30;
-    font-size:0.38rem;
+    background-color: #1a85dd;
+}
+.common .h-list li:nth-child(2) a{
+    color:#1a85dd;
 }
 .common .h-list li:nth-child(3) span{
-    background-color: #F60;
-    font-size:0.36rem;
+    background-color: #15ea78;
+}
+.common .h-list li:nth-child(3) a{
+    color:#15ea78;
 }
 .common .h-list li a:hover{
     color:#f63;

@@ -14,13 +14,12 @@ layui.use(['form', 'layedit', "element","upload"], function() {
             let filename = res.data.title,
                 img = new Image();
             src =  res.data.src; //保存的图片路径
-
             img.src = `/img/article/${filename}`;
-            console.log($("#img-show"))
-             $("#img-show").append(img)
+             $("#img-show").html(img)
         }
         ,error: function(){
             //请求异常回调
+            layer.msg('上传图片失败')
         }
     });
     layedit.set({
@@ -43,7 +42,7 @@ layui.use(['form', 'layedit', "element","upload"], function() {
             title,  //标题
             source, //文章来源
             src,    //图片路径
-            url : "sadas",
+            url : "",
             content: layedit.getContent(index)
         };
         //发起请求
@@ -54,7 +53,7 @@ layui.use(['form', 'layedit', "element","upload"], function() {
                 layer.msg(res.msg)
                 setTimeout(function () {
                     location.reload()
-                },500)
+                },300)
 
             }
         })

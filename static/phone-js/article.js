@@ -69,17 +69,42 @@ function articleList(data) {
     $("#article .article-list").html(frg);
     //分页
     if(/\/techno/.test(location.pathname)){
-        page("/phone/techno",maxNum)
+        pages("/phone/techno",maxNum)
     }else if(/\/life/.test(location.pathname)){
-        page("/phone/life",maxNum)
+        pages("/phone/life",maxNum)
     }else{
-        page("/phone",maxNum)
+        // page("/phone",maxNum)
+
+        pages("/phone",maxNum)
     }
 };
 
 
+function pages(url,maxNum){
+    let munber = Math.ceil(maxNum/10)
+    let homePage = `${url}/page/1`;
+    let tailPage = `${url}/page/${munber}`;
+    $('#laypage .home a')[0].href = homePage;
+    $('#laypage .tail a')[0].href = tailPage;
+    let frg = document.createDocumentFragment();
+    let pageNumber = location.pathname.replace(`${url}/page/`,'')
+    if(pageNumber === url){
+        pageNumber = '1'
+    }
+    console.log(pageNumber)
 
+    for (let i = 0; i< munber; i++){
+        let oLi = document.createElement('li');
+        oLi.innerHTML = `<a href="${url}/page/${i+1}">${i+1}</a>`;
+        frg.appendChild(oLi)
+    }
+     $('.page ul').html(frg)
+    for (let i = 0; i< munber; i++){
+        $('.page ul li ')[i].classList.remove('on')
+        $('.page ul li ')[pageNumber-1].classList.add('on')
+    }
 
+}
 
 
 

@@ -116,6 +116,10 @@ if(location.pathname !== '/history'){
 
 //统计
     function statistics(data){
+        data.maxArticle ? data.maxArticle : 0;
+        data.maxComment ? data.maxComment : 0;
+        data.browseNum ? data.browseNum : 0;
+        data.maxUser ? data.maxUser : 0;
         $('#total .article-total').html(data.maxArticle)
         $('#total .comment-total').html(data.maxComment)
         $('#total .browse-total').html(data.browseNum)

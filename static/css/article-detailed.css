@@ -46,8 +46,8 @@
     display: block;
     padding:0.04rem 0.08rem;
     line-height:0.5rem;
-    background-color:#282c34;
-    color:#abb2bf;
+    font-size: 0.24rem;
+    background-color:#f8f8f8;
 }
 .source{
     margin-top:30px;

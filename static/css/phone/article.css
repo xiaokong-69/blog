@@ -81,7 +81,22 @@
     font-size:0.28rem;
     letter-spacing: 0.1rem;
 }
+#laypage{
+    margin-bottom:0.4rem;
+}
+#laypage ul li {
+    float: left;
+    padding:0.1rem 0.2rem;
+    margin-right:0.1rem;
+    background-color: #fff;
+}
+#laypage .page ul .on{
+    background-color: #1a85dd;
+}
+#laypage .page ul .on a{
+    color:#fff;
 
+}
 
 
 
